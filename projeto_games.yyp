@@ -23,8 +23,10 @@
   "name":"projeto_games",
   "resources":[
     {"id":{"name":"objeto_bloco_terra","path":"objects/objeto_bloco_terra/objeto_bloco_terra.yy",},},
+    {"id":{"name":"objeto_heroi","path":"objects/objeto_heroi/objeto_heroi.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sprite_bloco_terra","path":"sprites/sprite_bloco_terra/sprite_bloco_terra.yy",},},
+    {"id":{"name":"sprite_heroi","path":"sprites/sprite_heroi/sprite_heroi.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

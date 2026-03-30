@@ -3,5 +3,8 @@
     {"name":"Objetos","order":2,"path":"folders/Objetos.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"objeto_heroi","order":1,"path":"objects/objeto_heroi/objeto_heroi.yy",},
+    {"name":"sprite_heroi","order":1,"path":"sprites/sprite_heroi/sprite_heroi.yy",},
+  ],
 }
