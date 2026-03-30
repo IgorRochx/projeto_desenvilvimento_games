@@ -1,0 +1,11 @@
+# Cache do GameMaker
+.cache/
+# Compilação
+*.exe
+*.zip
+# IDE local
+*.lock
+*.bak
+# Logs
+*.log
+output/
