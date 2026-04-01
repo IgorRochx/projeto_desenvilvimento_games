@@ -26,7 +26,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"sprite_bloco_terra",
     "path":"sprites/sprite_bloco_terra/sprite_bloco_terra.yy",
