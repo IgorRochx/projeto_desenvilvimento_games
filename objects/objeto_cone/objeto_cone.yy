@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"objeto_bloco_terra",
+  "%Name":"objeto_cone",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objeto_bloco_terra",
+  "name":"objeto_cone",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -29,10 +29,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"sprite_bloco_terra",
-    "path":"sprites/sprite_bloco_terra/sprite_bloco_terra.yy",
+    "name":"sprite_cone",
+    "path":"sprites/sprite_cone/sprite_cone.yy",
   },
   "spriteMaskId":null,
   "visible":true,

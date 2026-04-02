@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"objeto_bloco_terra",
+  "%Name":"objeto_spawner",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objeto_bloco_terra",
+  "name":"objeto_spawner",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -29,11 +29,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"sprite_bloco_terra",
-    "path":"sprites/sprite_bloco_terra/sprite_bloco_terra.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
