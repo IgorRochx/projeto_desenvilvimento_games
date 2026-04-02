@@ -5,19 +5,57 @@ if keyboard_check_pressed(vk_space) && place_meeting(x, y + grav, objeto_bloco_t
     ysp = 0;
 }
 
-// Pulo com W (so quando tocando superficie)
-if keyboard_check_pressed(ord("W")) && place_meeting(x, y + grav, objeto_bloco_terra)
-{
-    ysp = -5 * grav;
-}
+// Cooldown do dash
+if (cooldown_timer > 0) cooldown_timer--;
 
-// Gravidade com limite (respeita direcao)
-ysp = clamp(ysp + (0.3 * grav), -10, 10);
+// Gravidade com limite, so aplicada fora do dash
+if (!is_dashing)
+{
+    ysp = clamp(ysp + (0.3 * grav), -10, 10);
+}
 
 // Movimento horizontal
 xsp = 0;
-if keyboard_check(ord("A")) xsp = -2;
-if keyboard_check(ord("D")) xsp =  2;
+if (keyboard_check(ord("A"))) { xsp = -2; dir_dash = -1; }
+if (keyboard_check(ord("D"))) { xsp =  2; dir_dash =  1; }
+
+// Chao/teto e pulo (respeita direcao da gravidade)
+var on_ground = place_meeting(x, y + grav, objeto_bloco_terra);
+
+if (on_ground)
+{
+    ysp = 0;
+    dash_in_air = false;
+    if keyboard_check_pressed(ord("W")) ysp = -5 * grav;
+}
+
+// Dash com Z
+if keyboard_check_pressed(ord("Z")) && cooldown_timer == 0 && !is_dashing
+{
+    var can_dash = on_ground || !dash_in_air;
+
+    if (can_dash)
+    {
+        is_dashing = true;
+        dash_timer = dash_duration;
+        cooldown_timer = cooldown_max;
+        ysp = 0;
+        xsp = 0;
+        if (!on_ground) dash_in_air = true;
+    }
+}
+
+// Executar dash
+if (is_dashing)
+{
+    xsp = dash_speed * dir_dash;
+    dash_timer--;
+    if (dash_timer <= 0)
+    {
+        is_dashing = false;
+        xsp = 0;
+    }
+}
 
 // Colisao horizontal
 if place_meeting(x + xsp, y, objeto_bloco_terra)
@@ -27,6 +65,7 @@ if place_meeting(x + xsp, y, objeto_bloco_terra)
         x += sign(xsp);
     }
     xsp = 0;
+    is_dashing = false;
 }
 x += xsp;
 
