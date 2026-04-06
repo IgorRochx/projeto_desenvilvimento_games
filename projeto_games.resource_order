@@ -1,12 +1,16 @@
 {
   "FolderOrderSettings":[
+    {"name":"Cenas","order":4,"path":"folders/Cenas.yy",},
     {"name":"Objetos","order":2,"path":"folders/Objetos.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"objeto_cone","order":2,"path":"objects/objeto_cone/objeto_cone.yy",},
     {"name":"objeto_heroi","order":1,"path":"objects/objeto_heroi/objeto_heroi.yy",},
+    {"name":"objeto_portal","order":3,"path":"objects/objeto_portal/objeto_portal.yy",},
+    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"sprite_cone","order":2,"path":"sprites/sprite_cone/sprite_cone.yy",},
     {"name":"sprite_heroi","order":1,"path":"sprites/sprite_heroi/sprite_heroi.yy",},
+    {"name":"sprite_portal","order":3,"path":"sprites/sprite_portal/sprite_portal.yy",},
   ],
 }

@@ -2,7 +2,16 @@ window_set_size(1280, 720)
 
 xsp=0;
 ysp=0;
-grav=1; // 1 = gravidade normal (pra baixo), -1 = invertida (pra cima)
+
+// Gravidade definida pela room: Room1 = normal, Room2 = invertida
+if (room == Room2)
+{
+    grav = -1;
+}
+else
+{
+    grav = 1;
+}
 
 // Dash (colega)
 dash_speed = 8;
@@ -15,3 +24,6 @@ cooldown_max = 40;
 cooldown_timer = 0;
 
 dash_in_air = false;
+
+// Pulo duplo
+can_double_jump = true;

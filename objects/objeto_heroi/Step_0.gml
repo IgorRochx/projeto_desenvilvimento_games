@@ -1,10 +1,3 @@
-// Inverter gravidade com Espaco (so quando tocando superficie)
-if keyboard_check_pressed(vk_space) && place_meeting(x, y + grav, objeto_bloco_terra)
-{
-    grav = -grav;
-    ysp = 0;
-}
-
 // Cooldown do dash
 if (cooldown_timer > 0) cooldown_timer--;
 
@@ -26,7 +19,17 @@ if (on_ground)
 {
     ysp = 0;
     dash_in_air = false;
-    if keyboard_check_pressed(ord("W")) ysp = -5 * grav;
+    can_double_jump = true;
+    if keyboard_check_pressed(ord("W")) ysp = -7 * grav;
+}
+else
+{
+    // Pulo duplo no ar
+    if keyboard_check_pressed(ord("W")) && can_double_jump
+    {
+        ysp = -5 * grav;
+        can_double_jump = false;
+    }
 }
 
 // Dash com Z
@@ -84,6 +87,18 @@ y += ysp;
 if place_meeting(x, y, objeto_cone)
 {
     room_restart();
+}
+
+// Morte: caiu fora da tela (abaixo ou acima)
+if (y > room_height + 64 || y < -64)
+{
+    room_restart();
+}
+
+// Portal: vai para proxima room
+if place_meeting(x, y, objeto_portal)
+{
+    room_goto_next();
 }
 
 // Virar sprite de cabeca pra baixo quando gravidade invertida

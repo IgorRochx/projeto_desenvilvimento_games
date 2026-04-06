@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Cenas","folderPath":"folders/Cenas.yy","name":"Cenas","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objetos","folderPath":"folders/Objetos.yy","name":"Objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
@@ -25,16 +26,20 @@
     {"id":{"name":"objeto_bloco_terra","path":"objects/objeto_bloco_terra/objeto_bloco_terra.yy",},},
     {"id":{"name":"objeto_cone","path":"objects/objeto_cone/objeto_cone.yy",},},
     {"id":{"name":"objeto_heroi","path":"objects/objeto_heroi/objeto_heroi.yy",},},
+    {"id":{"name":"objeto_portal","path":"objects/objeto_portal/objeto_portal.yy",},},
     {"id":{"name":"objeto_spawner","path":"objects/objeto_spawner/objeto_spawner.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"sprite_bloco_terra","path":"sprites/sprite_bloco_terra/sprite_bloco_terra.yy",},},
     {"id":{"name":"sprite_cone","path":"sprites/sprite_cone/sprite_cone.yy",},},
     {"id":{"name":"sprite_heroi","path":"sprites/sprite_heroi/sprite_heroi.yy",},},
+    {"id":{"name":"sprite_portal","path":"sprites/sprite_portal/sprite_portal.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
