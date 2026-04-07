@@ -20,20 +20,20 @@ if (on_ground)
     ysp = 0;
     dash_in_air = false;
     can_double_jump = true;
-    if keyboard_check_pressed(ord("W")) ysp = -7 * grav;
+    if keyboard_check_pressed(ord("W")) ysp = -8.5 * grav;
 }
 else
 {
     // Pulo duplo no ar
     if keyboard_check_pressed(ord("W")) && can_double_jump
     {
-        ysp = -5 * grav;
+        ysp = -6.5 * grav;
         can_double_jump = false;
     }
 }
 
 // Dash com Z
-if keyboard_check_pressed(ord("Z")) && cooldown_timer == 0 && !is_dashing
+if keyboard_check_pressed(vk_space) && cooldown_timer == 0 && !is_dashing
 {
     var can_dash = on_ground || !dash_in_air;
 

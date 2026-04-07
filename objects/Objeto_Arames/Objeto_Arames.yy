@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Objeto_Obstaculo",
-  "eventList":[],
+  "%Name":"Objeto_Arames",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"objeto_heroi","path":"objects/objeto_heroi/objeto_heroi.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Objeto_Obstaculo",
+  "name":"Objeto_Arames",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_Obstaculo",
-    "path":"sprites/Sprite_Obstaculo/Sprite_Obstaculo.yy",
+    "name":"Sprite_Arames",
+    "path":"sprites/Sprite_Arames/Sprite_Arames.yy",
   },
   "spriteMaskId":null,
   "visible":true,
