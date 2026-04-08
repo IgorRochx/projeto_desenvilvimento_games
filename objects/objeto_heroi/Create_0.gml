@@ -24,6 +24,8 @@ cooldown_max = 40;
 cooldown_timer = 0;
 
 dash_in_air = false;
+dash_dir_x = 1;
+dash_dir_y = 0;
 
 // Pulo duplo
 can_double_jump = true;
