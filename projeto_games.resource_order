@@ -4,7 +4,6 @@
     {"name":"Objetos","order":1,"path":"folders/Objetos.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"Object8","order":3,"path":"objects/Object8/Object8.yy",},
     {"name":"Objeto_Arames","order":6,"path":"objects/Objeto_Arames/Objeto_Arames.yy",},
     {"name":"objeto_cone","order":2,"path":"objects/objeto_cone/objeto_cone.yy",},
     {"name":"Objeto_Entrulho","order":5,"path":"objects/Objeto_Entrulho/Objeto_Entrulho.yy",},
@@ -16,10 +15,11 @@
     {"name":"Sprite_Arames","order":7,"path":"sprites/Sprite_Arames/Sprite_Arames.yy",},
     {"name":"sprite_cone","order":2,"path":"sprites/sprite_cone/sprite_cone.yy",},
     {"name":"Sprite_Entulho","order":5,"path":"sprites/Sprite_Entulho/Sprite_Entulho.yy",},
+    {"name":"Sprite_fundo","order":6,"path":"sprites/Sprite_fundo/Sprite_fundo.yy",},
+    {"name":"Sprite_fundo2","order":9,"path":"sprites/Sprite_fundo2/Sprite_fundo2.yy",},
     {"name":"sprite_heroi_correndo","order":8,"path":"sprites/sprite_heroi_correndo/sprite_heroi_correndo.yy",},
     {"name":"sprite_heroi","order":1,"path":"sprites/sprite_heroi/sprite_heroi.yy",},
     {"name":"Sprite_muro","order":4,"path":"sprites/Sprite_muro/Sprite_muro.yy",},
     {"name":"sprite_portal","order":3,"path":"sprites/sprite_portal/sprite_portal.yy",},
-    {"name":"Sprite7","order":6,"path":"sprites/Sprite7/Sprite7.yy",},
   ],
 }
