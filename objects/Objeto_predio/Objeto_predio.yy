@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Objeto_Entrulho",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"objeto_heroi","path":"objects/objeto_heroi/objeto_heroi.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Objeto_predio",
+  "eventList":[],
   "managed":true,
-  "name":"Objeto_Entrulho",
+  "name":"Objeto_predio",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_Entulho",
-    "path":"sprites/Sprite_Entulho/Sprite_Entulho.yy",
+    "name":"Sprite_predio",
+    "path":"sprites/Sprite_predio/Sprite_predio.yy",
   },
   "spriteMaskId":null,
   "visible":true,

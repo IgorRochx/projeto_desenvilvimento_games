@@ -13,7 +13,7 @@ if (keyboard_check(ord("A"))) { xsp = -2; dir_dash = -1; image_xscale = -1; }
 if (keyboard_check(ord("D"))) { xsp =  2; dir_dash =  1; image_xscale =  1; }
 
 // Chao/teto e pulo (respeita direcao da gravidade)
-var on_ground = place_meeting(x, y + grav, objeto_bloco_terra) || place_meeting(x, y + grav, Objeto_Muro);
+var on_ground = place_meeting(x, y + grav, objeto_bloco_terra) || place_meeting(x, y + grav, Objeto_predio);
 
 if (on_ground)
 {
@@ -80,9 +80,9 @@ if (is_dashing)
 }
 
 // Colisao horizontal (bloco + muro)
-if (place_meeting(x + xsp, y, objeto_bloco_terra) || place_meeting(x + xsp, y, Objeto_Muro))
+if (place_meeting(x + xsp, y, objeto_bloco_terra) || place_meeting(x + xsp, y, Objeto_predio))
 {
-    while (!place_meeting(x + sign(xsp), y, objeto_bloco_terra) && !place_meeting(x + sign(xsp), y, Objeto_Muro))
+    while (!place_meeting(x + sign(xsp), y, objeto_bloco_terra) && !place_meeting(x + sign(xsp), y, Objeto_predio))
     {
         x += sign(xsp);
     }
@@ -92,9 +92,9 @@ if (place_meeting(x + xsp, y, objeto_bloco_terra) || place_meeting(x + xsp, y, O
 x += xsp;
 
 // Colisao vertical (bloco + muro)
-if (place_meeting(x, y + ysp, objeto_bloco_terra) || place_meeting(x, y + ysp, Objeto_Muro))
+if (place_meeting(x, y + ysp, objeto_bloco_terra) || place_meeting(x, y + ysp, Objeto_predio))
 {
-    while (!place_meeting(x, y + sign(ysp), objeto_bloco_terra) && !place_meeting(x, y + sign(ysp), Objeto_Muro))
+    while (!place_meeting(x, y + sign(ysp), objeto_bloco_terra) && !place_meeting(x, y + sign(ysp), Objeto_predio))
     {
         y += sign(ysp);
     }

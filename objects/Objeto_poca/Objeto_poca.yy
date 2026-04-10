@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"objeto_muro",
-  "eventList":[],
+  "%Name":"Objeto_poca",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"objeto_heroi","path":"objects/objeto_heroi/objeto_heroi.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"objeto_muro",
+  "name":"Objeto_poca",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_muro",
-    "path":"sprites/sprite_muro/sprite_muro.yy",
+    "name":"Sprite_Entulho",
+    "path":"sprites/Sprite_Entulho/Sprite_Entulho.yy",
   },
   "spriteMaskId":null,
   "visible":true,

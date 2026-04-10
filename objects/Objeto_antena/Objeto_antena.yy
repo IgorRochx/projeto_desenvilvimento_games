@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"objeto_muro",
+  "%Name":"Objeto_antena",
   "eventList":[],
   "managed":true,
-  "name":"objeto_muro",
+  "name":"Objeto_antena",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_muro",
-    "path":"sprites/sprite_muro/sprite_muro.yy",
+    "name":"Sprite_antena",
+    "path":"sprites/Sprite_antena/Sprite_antena.yy",
   },
   "spriteMaskId":null,
   "visible":true,
