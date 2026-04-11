@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"objeto_heroi_correndo",
+  "%Name":"Objeto_guarda",
   "eventList":[],
   "managed":true,
-  "name":"objeto_heroi_correndo",
+  "name":"Objeto_guarda",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_heroi_correndo",
-    "path":"sprites/sprite_heroi_correndo/sprite_heroi_correndo.yy",
+    "name":"Sprite_guarda",
+    "path":"sprites/Sprite_guarda/Sprite_guarda.yy",
   },
   "spriteMaskId":null,
   "visible":true,

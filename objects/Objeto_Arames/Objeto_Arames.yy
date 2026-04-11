@@ -2,7 +2,7 @@
   "$GMObject":"",
   "%Name":"Objeto_Arames",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"objeto_heroi","path":"objects/objeto_heroi/objeto_heroi.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"objeto_personagem","path":"objects/objeto_personagem/objeto_personagem.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Objeto_Arames",

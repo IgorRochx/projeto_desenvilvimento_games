@@ -4,7 +4,7 @@ xsp=0;
 ysp=0;
 
 // Gravidade definida pela room: Room1 = normal, Room2 = invertida
-if (room == Fase_02)
+if (room == Fase_03_invertida)
 {
     grav = -1;
 }

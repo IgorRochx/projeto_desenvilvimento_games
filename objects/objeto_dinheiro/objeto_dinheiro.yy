@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"objeto_heroi",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"objeto_dinheiro",
+  "eventList":[],
   "managed":true,
-  "name":"objeto_heroi",
+  "name":"objeto_dinheiro",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -29,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"sprite_heroi",
-    "path":"sprites/sprite_heroi/sprite_heroi.yy",
+    "name":"Sprite_dinheiro",
+    "path":"sprites/Sprite_dinheiro/Sprite_dinheiro.yy",
   },
   "spriteMaskId":null,
   "visible":true,

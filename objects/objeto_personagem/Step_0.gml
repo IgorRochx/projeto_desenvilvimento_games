@@ -123,12 +123,12 @@ if place_meeting(x, y, objeto_portal)
 // Animacao: parado vs correndo
 if (xsp == 0)
 {
-    sprite_index = sprite_heroi;
+    sprite_index = sprite_personagem;
     image_speed = 0;
 }
 else
 {
-    sprite_index = sprite_heroi_correndo;
+    sprite_index = sprite_personagem_correndo;
     image_speed = 1;
 }
 

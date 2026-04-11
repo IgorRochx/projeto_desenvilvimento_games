@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Objeto_poca",
+  "%Name":"objeto_personagem",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"objeto_personagem","path":"objects/objeto_personagem/objeto_personagem.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Objeto_poca",
+  "name":"objeto_personagem",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -28,10 +29,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"Sprite_Entulho",
-    "path":"sprites/Sprite_Entulho/Sprite_Entulho.yy",
+    "name":"sprite_personagem",
+    "path":"sprites/sprite_personagem/sprite_personagem.yy",
   },
   "spriteMaskId":null,
   "visible":true,
