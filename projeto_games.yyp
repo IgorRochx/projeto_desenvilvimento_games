@@ -28,6 +28,7 @@
     {"id":{"name":"objeto_bloco_terra","path":"objects/objeto_bloco_terra/objeto_bloco_terra.yy",},},
     {"id":{"name":"objeto_cone","path":"objects/objeto_cone/objeto_cone.yy",},},
     {"id":{"name":"objeto_dinheiro","path":"objects/objeto_dinheiro/objeto_dinheiro.yy",},},
+    {"id":{"name":"Objeto_game_controller","path":"objects/Objeto_game_controller/Objeto_game_controller.yy",},},
     {"id":{"name":"Objeto_guarda","path":"objects/Objeto_guarda/Objeto_guarda.yy",},},
     {"id":{"name":"objeto_muro","path":"objects/objeto_muro/objeto_muro.yy",},},
     {"id":{"name":"objeto_personagem_correndo","path":"objects/objeto_personagem_correndo/objeto_personagem_correndo.yy",},},

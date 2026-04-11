@@ -8,6 +8,7 @@
     {"name":"Objeto_Arames","order":6,"path":"objects/Objeto_Arames/Objeto_Arames.yy",},
     {"name":"objeto_cone","order":2,"path":"objects/objeto_cone/objeto_cone.yy",},
     {"name":"objeto_dinheiro","order":11,"path":"objects/objeto_dinheiro/objeto_dinheiro.yy",},
+    {"name":"Objeto_game_controller","order":12,"path":"objects/Objeto_game_controller/Objeto_game_controller.yy",},
     {"name":"Objeto_guarda","order":10,"path":"objects/Objeto_guarda/Objeto_guarda.yy",},
     {"name":"objeto_muro","order":9,"path":"objects/objeto_muro/objeto_muro.yy",},
     {"name":"objeto_personagem_correndo","order":7,"path":"objects/objeto_personagem_correndo/objeto_personagem_correndo.yy",},

@@ -1,6 +1,6 @@
-if (place_meeting(x, y, obj_player)) { // checa se o player tocou na moeda
+if (place_meeting(x, y, objeto_personagem) || place_meeting(x, y, objeto_personagem_correndo)) { // checa se o player tocou na moeda
     
-    obj_game_controller.coins_collected += 1;
+    Objeto_game_controller.dinheiro_coletado += 1;
     
     instance_destroy();
 }
