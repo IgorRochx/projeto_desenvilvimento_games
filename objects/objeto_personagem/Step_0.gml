@@ -119,12 +119,6 @@ if (ysp != 0)
 }
 y += ysp;
 
-// Morte: tocou no cone = reinicia fase
-if (place_meeting(x, y, objeto_cone))
-{
-    room_restart();
-}
-
 // Morte: tocou no guarda = guarda bate e reinicia com delay
 if (place_meeting(x, y, Objeto_guarda))
 {

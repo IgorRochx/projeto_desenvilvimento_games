@@ -26,7 +26,6 @@
     {"id":{"name":"Objeto_antena","path":"objects/Objeto_antena/Objeto_antena.yy",},},
     {"id":{"name":"Objeto_Arames","path":"objects/Objeto_Arames/Objeto_Arames.yy",},},
     {"id":{"name":"objeto_bloco_terra","path":"objects/objeto_bloco_terra/objeto_bloco_terra.yy",},},
-    {"id":{"name":"objeto_cone","path":"objects/objeto_cone/objeto_cone.yy",},},
     {"id":{"name":"objeto_dinheiro","path":"objects/objeto_dinheiro/objeto_dinheiro.yy",},},
     {"id":{"name":"Objeto_game_controller","path":"objects/Objeto_game_controller/Objeto_game_controller.yy",},},
     {"id":{"name":"objeto_guarda_batendo","path":"objects/objeto_guarda_batendo/objeto_guarda_batendo.yy",},},
@@ -37,7 +36,6 @@
     {"id":{"name":"Objeto_poca","path":"objects/Objeto_poca/Objeto_poca.yy",},},
     {"id":{"name":"objeto_portal","path":"objects/objeto_portal/objeto_portal.yy",},},
     {"id":{"name":"Objeto_predio","path":"objects/Objeto_predio/Objeto_predio.yy",},},
-    {"id":{"name":"objeto_spawner","path":"objects/objeto_spawner/objeto_spawner.yy",},},
     {"id":{"name":"Fase_01","path":"rooms/Fase_01/Fase_01.yy",},},
     {"id":{"name":"Fase_02","path":"rooms/Fase_02/Fase_02.yy",},},
     {"id":{"name":"Fase_03_invertida","path":"rooms/Fase_03_invertida/Fase_03_invertida.yy",},},
@@ -61,8 +59,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Fase_01","path":"rooms/Fase_01/Fase_01.yy",},},
-    {"roomId":{"name":"Fase_03_invertida","path":"rooms/Fase_03_invertida/Fase_03_invertida.yy",},},
     {"roomId":{"name":"Fase_02","path":"rooms/Fase_02/Fase_02.yy",},},
+    {"roomId":{"name":"Fase_03_invertida","path":"rooms/Fase_03_invertida/Fase_03_invertida.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

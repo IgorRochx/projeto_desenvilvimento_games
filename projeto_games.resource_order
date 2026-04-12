@@ -7,7 +7,6 @@
     {"name":"Objeto_antena","order":9,"path":"objects/Objeto_antena/Objeto_antena.yy",},
     {"name":"Objeto_Arames","order":7,"path":"objects/Objeto_Arames/Objeto_Arames.yy",},
     {"name":"objeto_bloco_terra","order":1,"path":"objects/objeto_bloco_terra/objeto_bloco_terra.yy",},
-    {"name":"objeto_cone","order":3,"path":"objects/objeto_cone/objeto_cone.yy",},
     {"name":"objeto_dinheiro","order":12,"path":"objects/objeto_dinheiro/objeto_dinheiro.yy",},
     {"name":"Objeto_game_controller","order":13,"path":"objects/Objeto_game_controller/Objeto_game_controller.yy",},
     {"name":"objeto_guarda_batendo","order":14,"path":"objects/objeto_guarda_batendo/objeto_guarda_batendo.yy",},
