@@ -30,5 +30,11 @@ dash_dir_y = 0;
 // Pulo duplo
 can_double_jump = true;
 
+// Mascara fixa para colisao (independente da sprite animada)
+mask_index = sprite_personagem;
+
+// Direcao visual (1 = direita, -1 = esquerda) - usada apenas no Draw
+facing = 1;
+
 // Flag de morte por guarda
 morto_por_guarda = false;
