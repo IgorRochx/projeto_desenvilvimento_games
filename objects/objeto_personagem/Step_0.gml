@@ -1,3 +1,6 @@
+// Se morreu pelo guarda, congela tudo
+if (morto_por_guarda) exit;
+
 // Cooldown do dash
 if (cooldown_timer > 0) cooldown_timer--;
 
@@ -79,33 +82,63 @@ if (is_dashing)
     }
 }
 
-// Colisao horizontal (bloco + muro)
-if (place_meeting(x + xsp, y, objeto_bloco_terra) || place_meeting(x + xsp, y, Objeto_predio))
+// Colisao horizontal (bloco + predio)
+if (xsp != 0)
 {
-    while (!place_meeting(x + sign(xsp), y, objeto_bloco_terra) && !place_meeting(x + sign(xsp), y, Objeto_predio))
+    if (place_meeting(x + xsp, y, objeto_bloco_terra) || place_meeting(x + xsp, y, Objeto_predio))
     {
-        x += sign(xsp);
+        var _sx = sign(xsp);
+        var _i = 0;
+        while (_i < 20)
+        {
+            if (place_meeting(x + _sx, y, objeto_bloco_terra) || place_meeting(x + _sx, y, Objeto_predio)) break;
+            x += _sx;
+            _i++;
+        }
+        xsp = 0;
+        is_dashing = false;
     }
-    xsp = 0;
-    is_dashing = false;
 }
 x += xsp;
 
-// Colisao vertical (bloco + muro)
-if (place_meeting(x, y + ysp, objeto_bloco_terra) || place_meeting(x, y + ysp, Objeto_predio))
+// Colisao vertical (bloco + predio)
+if (ysp != 0)
 {
-    while (!place_meeting(x, y + sign(ysp), objeto_bloco_terra) && !place_meeting(x, y + sign(ysp), Objeto_predio))
+    if (place_meeting(x, y + ysp, objeto_bloco_terra) || place_meeting(x, y + ysp, Objeto_predio))
     {
-        y += sign(ysp);
+        var _sy = sign(ysp);
+        var _j = 0;
+        while (_j < 20)
+        {
+            if (place_meeting(x, y + _sy, objeto_bloco_terra) || place_meeting(x, y + _sy, Objeto_predio)) break;
+            y += _sy;
+            _j++;
+        }
+        ysp = 0;
     }
-    ysp = 0;
 }
 y += ysp;
 
 // Morte: tocou no cone = reinicia fase
-if place_meeting(x, y, objeto_cone)
+if (place_meeting(x, y, objeto_cone))
 {
     room_restart();
+}
+
+// Morte: tocou no guarda = guarda bate e reinicia com delay
+if (place_meeting(x, y, Objeto_guarda))
+{
+    var _guarda = instance_nearest(x, y, Objeto_guarda);
+    if (_guarda != noone)
+    {
+        _guarda.sprite_index = sprite_guarda_batendo;
+        _guarda.image_speed = 1;
+    }
+    morto_por_guarda = true;
+    xsp = 0;
+    ysp = 0;
+    visible = false;
+    alarm[0] = 30;
 }
 
 // Morte: caiu fora da tela (abaixo ou acima)

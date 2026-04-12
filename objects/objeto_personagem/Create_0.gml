@@ -29,3 +29,6 @@ dash_dir_y = 0;
 
 // Pulo duplo
 can_double_jump = true;
+
+// Flag de morte por guarda
+morto_por_guarda = false;

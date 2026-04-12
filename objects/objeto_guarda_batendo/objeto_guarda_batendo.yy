@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Objeto_guarda",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"objeto_guarda_batendo",
+  "eventList":[],
   "managed":true,
-  "name":"Objeto_guarda",
+  "name":"objeto_guarda_batendo",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_guarda",
-    "path":"sprites/Sprite_guarda/Sprite_guarda.yy",
+    "name":"sprite_guarda_batendo",
+    "path":"sprites/sprite_guarda_batendo/sprite_guarda_batendo.yy",
   },
   "spriteMaskId":null,
   "visible":true,
