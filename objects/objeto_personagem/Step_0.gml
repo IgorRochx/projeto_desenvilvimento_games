@@ -154,12 +154,6 @@ if (y > room_height + 64 || y < -64)
     room_restart();
 }
 
-// Portal: vai para proxima room
-if place_meeting(x, y, objeto_portal)
-{
-    room_goto_next();
-}
-
 // Animacao: parado vs correndo
 if (xsp == 0)
 {
